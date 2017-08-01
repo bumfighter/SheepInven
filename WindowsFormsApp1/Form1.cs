@@ -19,7 +19,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
         List<Sheep> Inventory = new List<Sheep>();
+
         class Sheep : Livestock
         {
             internal string Breed
